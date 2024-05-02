@@ -79,9 +79,9 @@ while running:
         cam_pos.z += speed*dt
     if pygame.key.get_pressed()[pygame.K_s]:
         cam_pos.z -= speed*dt
-    if pygame.key.get_pressed()[pygame.K_t]:
+    if pygame.key.get_pressed()[pygame.K_SPACE]:
         cam_pos.y -= speed*dt
-    if pygame.key.get_pressed()[pygame.K_g]:
+    if pygame.key.get_pressed()[pygame.K_LSHIFT]:
         cam_pos.y += speed*dt
     if pygame.key.get_pressed()[pygame.K_a]:
         cam_pos.x -= speed*dt
